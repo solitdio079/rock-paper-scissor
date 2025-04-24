@@ -1,0 +1,29 @@
+ul{
+    list-style: none;
+}
+
+#gameScores, #gameLogs,.resetContainer, .buttons-container{
+    display: flex;
+    max-width: 50vw;
+    padding: 2rem;
+    margin: .5rem auto;
+}
+
+.buttons-container{
+    gap: .5rem;
+    justify-content: space-around;
+}
+#gameLogs {
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+}
+#gameScores{
+    justify-content: space-between;
+}
+.resetContainer{
+    justify-content: center;
+}
+.hidden{
+    display: none;
+}

@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-   <p>Hello World!</p>
+   <div id="gameScore">
+    <div id="gameScores">
+        <span id="humanScore">You:</span>
+        <span id="computerScore">Computer:</span>
+    </div>
+    <ul id="gameLogs"></ul>
+   </div>
+   <div class="buttons-container">
+    <button id="rock">Rock</button>
+    <button id="paper">Paper</button>
+    <button id="Scissors">Scissors</button>
+   </div>
+   <div class="resetContainer hidden">
+    <button id="reset">Reset</button>
+   </div>
    <script src="script.js"></script>
 </body>
 </html>
